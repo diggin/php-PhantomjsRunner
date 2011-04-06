@@ -9,7 +9,9 @@ Requirements
 
 Usage
 ----
-set your phantomjs path.
+set your phantomjs path:
     require_once "Diggin/Phantomjs.php";
     $phantomjs = new Diggin\Phantomjs('/path/to/phantomjs/bin/phantomjs');
     $phantomjs->getHtml($url);
+
+
